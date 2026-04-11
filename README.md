@@ -101,7 +101,7 @@ Lighthouse assigns a priority score to each file to determine processing order:
 ## 🧪 Running Tests
 
 ```bash
-pytest tests/ -v
+python -m unittest discover -s tests -v
 ```
 
 Tests follow a TDD approach. Each module has corresponding tests covering edge cases (empty files, binary files, unknown extensions, etc.).
