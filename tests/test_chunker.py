@@ -5,7 +5,7 @@ from src.ingestion.chunker import chunk_file
 from src.ingestion.scanner import FileInfo
 from src.utils.types import FileType
 
-class ScannerTestCase(unittest.TestCase):
+class ChunkerTestCase(unittest.TestCase):
     def make_file_info(self, path: Path, file_type: FileType = FileType.SOURCE_CODE) -> FileInfo:
         return FileInfo(
             path=path,
