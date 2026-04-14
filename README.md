@@ -115,7 +115,7 @@ Tests follow a TDD approach. Each module has corresponding tests covering edge c
 | Git operations | `gitpython` |
 | Text splitting | `langchain-text-splitters` |
 | Vector store | `chromadb` |
-| Embeddings | `text-embedding-3-small` (OpenAI) |
+| Embeddings | `all-MiniLM-L6-v2` (sentence-transformers) |
 | Agent | `langchain` |
 
 ---
